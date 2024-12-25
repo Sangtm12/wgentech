@@ -1,10 +1,14 @@
+import "./app.css";
+
 const App = () => {
   return (
     <div className="app-container">
       <section className="intro">
         <h2 className="intro__title">Lorem ullamco</h2>
-        <img src="/image-1.png" className="intro__image" />
-        <img src="/image-2.png" className="intro__image" />
+        <div className="intro__image-container">
+          <img src="/image-1.png" className="intro__image" />
+          <img src="/image-2.png" className="intro__image" />
+        </div>
         <p className="intro__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur
           eiusmod consectetur proident Lorem reprehenderit esse do anim velit in
