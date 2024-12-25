@@ -8,3 +8,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+* {
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  margin-block: 0;
+  margin-inline: 0;
+}

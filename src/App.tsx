@@ -28,8 +28,10 @@ const App = () => {
       </section>
       <section className="card">
         <div className="card__container card__container--left">
-          <img src="/image-3.png" alt="" className="card__image" />
-          <div className="card__text">
+          <div className="card__item card__item--image">
+            <img src="/image-3.png" alt="" className="card__image" />
+          </div>
+          <div className="card__item card__item--text">
             <h2 className="card__title">Lorem ipsum</h2>
             <h3>Excepteur eiusmod consectetur</h3>
             <p>
@@ -55,9 +57,8 @@ const App = () => {
           </div>
         </div>
         <div className="card__container card__container--right">
-          <div className="card__text">
+          <div className="card__item card__item--text">
             <h2 className="card__title">Mollit aliquip do ipsum consectetur</h2>
-            <h3>Excepteur eiusmod consectetur</h3>
             <p>
               Ex laborum ea qui consectetur mollit commodo eiusmod culpa dolor
               cupidatat. Ullamco dolore irure ea sit elit velit non officia. Ad
@@ -72,7 +73,9 @@ const App = () => {
               consectetur. Esse laborum amet aliqua ad in sunt labore duis.
             </p>
           </div>
-          <img src="/image-4.png" alt="" className="card__image" />
+          <div className="card__item card__item--image">
+            <img src="/image-4.png" alt="" className="card__image" />
+          </div>
         </div>
       </section>
     </div>
