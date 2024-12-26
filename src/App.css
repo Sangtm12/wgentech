@@ -31,8 +31,11 @@ h2.intro__title {
 div.intro__image-container {
   display: flex;
   gap: 32.5px;
-  padding: 41px 0px;
+  padding: 41.11px 0px;
   overflow: hidden;
+  max-width: 790px;
+  margin: auto;
+  margin-bottom: 8px;
 }
 
 img.intro__image {
@@ -84,6 +87,10 @@ div.card__item--text {
 
 .card__container--right .card__item--text p:first-of-type {
   margin-top: 40px;
+}
+
+.card__container--right .card__item--text {
+  padding-bottom: 70px;
 }
 
 .card__item--text h3 {
